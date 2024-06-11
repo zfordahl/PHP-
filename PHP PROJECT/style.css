@@ -1,0 +1,332 @@
+/* 
+         Name of file and purpose:
+         Course name:CS235 Server-side Development
+         Project: Midterm
+         Developer name: Zach Fordahl
+         Email: fordahlz@csp.edu
+         Date: 12/3/2023
+         
+         Future Revisions:
+         Date: 12/3/2023
+         Person:Zach
+         What was done: Added some style for the added html table on the index page and for the forms that are on the registration and myAccount
+*/
+/*.index,personalTraining,aboutUs and membership on this is what sets the image background*/
+
+.index {
+	height: 100vh;
+	width: 100%;
+	background-color: black;
+	background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)),
+		url(graphic/background.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.PersonalTraining {
+	height: 100vh;
+	width: 100%;
+	background-color: black;
+	background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)),
+		url(graphic/personalTraining.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.aboutUs {
+	height: 100vh;
+	width: 100%;
+	background-color: black;
+	background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)),
+		url(graphic/about.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.membership {
+	height: 100vh;
+	width: 100%;
+	background-color: black;
+	background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)),
+		url(graphic/membership.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.myAccount {
+	height: 100vh;
+	width: 100%;
+	background-color: black;
+	background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)),
+		url(graphic/myAccount.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.NewUsers {
+	height: 100vh;
+	width: 100%;
+	background-color: black;
+	background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)),
+		url(graphic/createUserfour.png);
+	background-size: cover;
+	background-position: center;
+}
+
+/*nav in flexbox*/
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 40px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+/*Log set in white*/
+.logo {
+	color: white;
+	font-size: 26px;
+}
+
+.logo a:hover {
+	color: red;
+	transition: 0.3s;
+}
+
+.logo a {
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px 20px;
+}
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+nav ul li a:hover {
+	color: red;
+	transition: 0.3s;
+}
+
+.indexParagraph {
+	color: white;
+	font-size: 26px;
+	text-align: center;
+	padding-top: 20%;
+}
+
+/*personal training*/
+
+.container {
+	height: 0vh;
+	width: auto;
+	background-color: #ffffff;
+	border: 1px solid black;
+	opacity: 0.6;
+	display: flex;
+	justify-content: center;
+}
+
+.myAccountBox {
+	width: 60%;
+	height: 60%;
+	border: 2px solid black;
+	margin: auto;
+
+}
+
+.myAccountBox .myAccountForm {
+	width: 90%;
+	height: 70%;
+	margin: auto;
+
+}
+
+.RegisterBox {
+	width: 60%;
+	height: 70%;
+	border: 2px solid black;
+	margin: auto;
+
+
+}
+
+.RegisterBox .myAccountForm {
+	width: 90%;
+	height: 70%;
+	margin: auto;
+
+
+}
+
+.myAccountForm label {
+	font-size: 1.5em;
+	;
+}
+
+h2 {
+	text-align: center;
+}
+
+/*Container to hold center elements*/
+.container {
+	height: 80vh;
+	width: auto;
+	padding-right: 40%;
+	background-color: #ffffff;
+	border: 1px solid black;
+	opacity: 0.6;
+	display: flex;
+	justify-content: center;
+}
+
+/*dsiplay container same as container with small changes*/
+.displayContainer {
+	height: 20vh;
+	width: auto;
+	padding-right: 40%;
+	background-color: #ffffff;
+	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+}
+
+/*Boxes to hold elements*/
+.displayBox {
+	height: 90%;
+	width: 25%;
+	margin: auto;
+	border: 2px solid rgb(222, 128, 128);
+	background-color: black;
+	color: red;
+	opacity: 90%;
+	text-align: center;
+}
+
+.displayBox1 {
+	display: flex;
+	align-items: center;
+	height: 90%;
+	width: 25%;
+	margin: auto;
+	border: 2px solid rgb(222, 128, 128);
+	background-color: black;
+	color: red;
+	opacity: 90%;
+}
+
+.homeImg {
+	height: 70%;
+	width: 100%;
+}
+
+.displayBox a {
+	text-decoration: none;
+	color: white;
+}
+
+.displayBox1 a {
+	text-decoration: none;
+	color: white;
+	margin: auto;
+}
+
+.imgdis:hover {
+	color: red;
+	transition: 0.3s;
+}
+
+.myAccountForm {
+	color: black;
+	background-color: #ffffff;
+}
+
+.PersonalTrainingForm FieldSet {
+	margin: 2em 0;
+	padding: .5em .5em;
+	border: solid 1px #ccc;
+	border-radius: 6px;
+	min-width: 200px;
+}
+
+legend {
+	font-size: 1em;
+	padding: 0 .25em;
+	color: #999;
+}
+
+.PersonalTrainingForm {
+	width: 100%;
+
+}
+
+.personalTrainingLegend {
+	font-size: 1.25em;
+	padding: 0 .25em;
+	color: #999;
+
+}
+
+.myAccountBox {
+	border: 2px solid rgba(255, 255, 255, 0.5);
+	border-radius: 20px;
+	backdrop-filter: blur(20px);
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+/*Table Style*/
+#tableStyle {
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#tableStyle td,
+#tableStyle th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#tableStyle tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+#tableStyle tr:hover {
+	background-color: red;
+	color: black;
+}
+
+#tableStyle th:hover {
+	background-color: red;
+}
+
+#tableStyle th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: black;
+	color: white;
+}
+
+h1 {
+	color: black;
+	text-align: center;
+}
+
+h1:hover {
+	color: red;
+	transition: 0.3s;
+}
