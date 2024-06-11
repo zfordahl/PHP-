@@ -1,0 +1,42 @@
+/* 
+Name of file and purpose:
+Course name:CS235 Server-side Development
+Project: Display Data
+Developer name: Zach Fordahl
+Email: fordahlz@csp.edu
+Date: 11/7/2023
+
+Future Revisions:
+Date:
+Person:
+What was done:
+-*/
+/* table */
+#databaseTable {
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+/*table data*/
+#databaseTable td,
+#databaseTable th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+/*table row with hover*/
+#databaseTable tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+#databaseTable tr:hover {
+	background-color: #ddd;
+}
+/*table header*/
+#databaseTable th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #04AA6D;
+	color: white;
+}
+

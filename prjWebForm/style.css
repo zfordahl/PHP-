@@ -1,0 +1,130 @@
+/*
+Name of file and purpose:
+Course name:CS235 Server-side Development
+Project: Web Form
+Developer name: Zach Fordahl
+Email: fordahlz@csp.edu
+Date: 11/2/2023
+
+Future Revisions:
+Date:
+Person:
+What was done:
+*/
+/**/
+
+/*header*/
+header {
+	display: inline-block;
+	justify-self: left;
+	background-color: rgb(196, 238, 238);
+  border: 4px solid black;
+	width: 100%;
+	height: auto;
+
+}
+
+/*table*/
+#petTable {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	border-collapse: collapse;
+	width: 95%;
+	justify-self: center;
+	margin: auto;
+
+}
+
+#petTable td,
+#petTable th {
+	border: 1px solid #ddd;
+	padding: 8px;
+
+
+}
+
+#petTable tr:hover {
+	background-color: rgb(196, 238, 238);
+	;
+}
+
+#petTable th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: black;
+	color: white;
+}
+
+/* fieldset and legend*/
+fieldset {
+	margin: 3em ;
+	padding: 1em 2em;
+	border: solid 1px #ccc;
+	border-radius: 6px;
+	width: 70%;
+	background-color: rgb(196, 238, 238);
+
+}
+
+legend {
+	font-size: 1.25em;
+	padding: 0.25em;
+	color: #333;
+
+}
+
+/*labels*/
+label {
+	display: block;
+	margin-top: 1em;
+}
+
+label:first-of-type {
+	margin-top: 0;
+}
+
+/*input*/
+input {
+	padding: .5em;
+	border: solid 1px #999;
+}
+
+input[type="text"] {
+	width: 15em;
+}
+
+/*Button*/
+input[type="submit"] {
+	padding: .5em 1em;
+	border-radius: 6px;
+	background-color: #333;
+	color: white;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+/* Section to hold form in flex direction row. */
+#formSection {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+
+
+}
+
+/*image*/
+
+#imgLogo {
+	width: 500px;
+	height: 200px;
+	border-left: 4px black;
+	justify-self: left;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
